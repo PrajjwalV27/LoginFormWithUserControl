@@ -4,8 +4,8 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    const validUsername = 'user';
-    const validPassword = 'password';
+    const validUsername = 'user'; //this is the username for login
+    const validPassword = 'password'; //this is the password for login
 
     if (username === validUsername && password === validPassword) {
         window.location.href = "/LandingPage/landing.html";
